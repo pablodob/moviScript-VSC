@@ -1,0 +1,25 @@
+{
+  "name": "moviscript",
+  "displayName": "moviScript",
+  "description": "moviScript lenguage support",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "moviscript",
+      "aliases": ["moviScript", "moviscript"],
+      "extensions": [".movi"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "moviscript",
+      "scopeName": "source.movi",
+      "path": "./syntaxes/moviscript.tmLanguage.json"
+    }]
+  }
+}
